@@ -76,13 +76,13 @@ const SocialContact = () => {
                         (55)4948-9384
                     </Typography>
                 </div>
-                <div className={classes.contact}>
+                {/* <div className={classes.contact}>
                     <MailOutlineIcon className={classes.icon}/>
                     <Typography variant="h5">
-                        cfn@gmail.com
+                        
                     </Typography>
                 </div>
-                <hr/>
+                <hr/> */}
                 <div>
                     <Typography className={classes.sub} variant='h5'>
                         Horario de Atención 
@@ -90,7 +90,7 @@ const SocialContact = () => {
                     <Typography variant='h6'>
                         Martes - Domingo
                         <br/>
-                        10:00 - 14:00 / 17:00 - 19:00 
+                        09:00 - 13:00 / 16:00 - 21:00
                     </Typography>
                 </div>
                 <hr/>

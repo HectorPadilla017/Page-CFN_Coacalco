@@ -111,6 +111,8 @@ const SliderActivities = () => {
                                         Img={item.Img}
                                         Titulo={item.Titulo}
                                         Descripción={item.Descripción}
+                                        Href={item.Href}
+                                        Link={item.Link}
                                         Des={item.Des}
                                     />
                                 </SwiperSlide>

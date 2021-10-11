@@ -72,12 +72,12 @@ const SocialMedia = () => {
                         (55)4948-9384
                     </Typography>
                 </div>
-                <div className={classes.contact}>
+                {/* <div className={classes.contact}>
                     <MailOutlineIcon className={classes.icon}/>
                     <Typography variant="h5">
-                        cfn@gmail.com
+                        
                     </Typography>
-                </div>
+                </div> */}
                 <div className={classes.social}>
                     <Link href='http://www.facebook.com/cfnac' color='inherit' target='_blank' rel="noopener">
                         <FacebookIcon className={classes.icon}/>

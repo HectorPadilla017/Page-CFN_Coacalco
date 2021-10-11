@@ -1,29 +1,43 @@
-import React from 'react';
-import Carousel from './Carousel.jsx';
-import CardSocialLeft from './CardSocialLeft/CardSocialLeft.jsx';
-import CardInfo from './CardInfo/CardInfo.jsx'
-import SliderActivities from './SliderActivities/SliderActivities.jsx'
-import MessagePas from './MessagePas'
-import Container from '@material-ui/core/Container';
-import { makeStyles } from '@material-ui/core/styles'
+import React, { Suspense } from "react";
+import Container from "@material-ui/core/Container";
+import { makeStyles } from "@material-ui/core/styles";
+
+import loadable, { lazy } from "@loadable/component";
+import pMinDelay from "p-min-delay";
+
+import Loading from "../../Content/SpinnerLoading/Loading";
+
+const Carousel = lazy(() => pMinDelay(import("./Carousel"), 1000));
+const CardSocialLeft = lazy(() =>
+  pMinDelay(import("./CardSocialLeft/CardSocialLeft"), 5000)
+);
+const CardInfo = lazy(() => pMinDelay(import("./CardInfo/CardInfo"), 5000));
+const SliderActivities = lazy(() =>
+  pMinDelay(import("./SliderActivities/SliderActivities"), 5000)
+);
+const MessagePas = lazy(() => pMinDelay(import("./MessagePas"), 5000));
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        position: 'relative',
-    },
-}))
+  root: {
+    position: "relative",
+  },
+}));
 
 const Inicio = () => {
-    const classes = useStyles()
-    return (
-            <Container className={classes.root} disableGutters maxWidth="xl">
-                <Carousel/>
-                <CardSocialLeft/>
-                <CardInfo/>
-                <SliderActivities/>
-                <MessagePas/>
-            </Container>
-    )
-}
+  const classes = useStyles();
+  return (
+    <Container className={classes.root} disableGutters maxWidth="xl">
+      <Suspense fallback={<Loading />}>
+        <Carousel />
+      </Suspense>
+      <Suspense fallback={<Loading />}>
+        <CardSocialLeft />
+        <CardInfo />
+        <SliderActivities />
+        <MessagePas />
+      </Suspense>
+    </Container>
+  );
+};
 
-export default Inicio
+export default Inicio;
