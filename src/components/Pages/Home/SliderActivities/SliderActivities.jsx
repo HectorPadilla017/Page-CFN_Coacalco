@@ -80,8 +80,6 @@ const SliderActivities = () => {
                     <Swiper
                         id='swiper-replace2'
                         className={classes.swiper}
-                        // spaceBetween={40}
-                        // slidesPerView={4}
                         freeMode={true}
                         breakpoints={{
                             1500: {

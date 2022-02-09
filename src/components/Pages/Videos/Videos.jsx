@@ -11,7 +11,7 @@ import { getChannelAction } from "../../../redux/YoutubeApi";
 import { getTeachingAction } from "../../../redux/YouTeachingApi";
 import { getSermonsAction } from "../../../redux/YouSermonsApi";
 
-import foto from "../../../img/Cover2.png";
+import foto from "../../../img/Cover2.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,7 +38,7 @@ const Videos = () => {
     dispatch(getTeachingAction());
     dispatch(getSermonsAction());
   };
-  // console.log(youtube)
+  console.log(youtube)
 
   const tema1 = youtube.YoutubeApi.channel.snippet.title;
   const video1 = youtube.YoutubeApi.channel.id.videoId;

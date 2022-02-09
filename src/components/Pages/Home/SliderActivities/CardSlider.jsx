@@ -36,14 +36,15 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontSize: "25px",
+    lineHeight: '1',
+    marginBottom: '12px',
   },
   body: {
-    [theme.breakpoints.down("xs")]: {
-      marginRight: theme.spacing(2),
-    },
+
   },
   link: {
     fontWeight: "bold",
+    fontSize: '1.6rem',
     color: "rgba(13, 50, 105, 1)",
   },
 }));
@@ -61,7 +62,7 @@ export default function CardSlider(props) {
       />
       <CardContent className={classes.content}>
         <Typography
-          className={`${classes.body} ${classes.title}`}
+          className={classes.title}
           gutterBottom
           variant="h6"
           component="h6"

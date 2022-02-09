@@ -30,13 +30,13 @@ const useStyles = makeStyles((theme) => ({
     left: 0,
     width: "100%",
     transition: "0.6s",
-    padding: "30px 0px",
+    padding: "10px 0px",
     zIndex: 100,
     [theme.breakpoints.down("sm")]: {
-      padding: "15px 0px",
+      padding: "4px 0px",
     },
     [theme.breakpoints.down("xs")]: {
-      padding: "10px 0px",
+      padding: "4px 0px",
     },
     "&.sticky": {
       padding: "0px 0px",
@@ -82,11 +82,11 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
   },
   imgLogo: {
-    height: "30px",
+    height: "25px",
   },
   linkText: {
     color: "#fff",
-    fontSize: "20px",
+    fontSize: "18px",
     fontWeight: "400",
     textDecoration: "none",
     padding: theme.spacing(1),
@@ -102,7 +102,11 @@ const useStyles = makeStyles((theme) => ({
   },
   iconButton: {
     color: "white",
+    fontSize: '3rem',
   },
+  iconSocial: {
+    padding: theme.spacing(1),
+  }
 }));
 
 export default function Nav(props) {
@@ -132,9 +136,9 @@ export default function Nav(props) {
               <Typography
                 className={classes.linkText}
                 component={Link}
-                to="/Actividades"
+                to="/Equipos"
               >
-                Actividades
+                Equipos
               </Typography>
               <Typography
                 className={classes.linkText}
@@ -170,15 +174,15 @@ export default function Nav(props) {
                 aria-label="menu"
                 onClick={() => props.actionOpen()}
               >
-                <MenuIcon />
+                <MenuIcon className={classes.iconButton}/>
               </IconButton>
             </Hidden>
             <Hidden smDown>
               <div>
-                <Facebook className={classes.iconButton} />
-                <Twitter className={classes.iconButton} />
-                <Instagram className={classes.iconButton} />
-                <Youtube className={classes.iconButton} />
+                <Facebook className={`${classes.iconButton} ${classes.iconSocial}`}/>
+                <Twitter className={`${classes.iconButton} ${classes.iconSocial}`}/>
+                <Instagram className={`${classes.iconButton} ${classes.iconSocial}`}/>
+                <Youtube className={`${classes.iconButton} ${classes.iconSocial}`}/>
               </div>
             </Hidden>
           </div>

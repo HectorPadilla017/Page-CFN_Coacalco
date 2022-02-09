@@ -13,7 +13,7 @@ import Twitter from "../../Content/SocialMedia/Twitter";
 import Instagram from "../../Content/SocialMedia/Instagram";
 import Youtube from "../../Content/SocialMedia/Youtube";
 
-import logo from "../../../img/Logo.png";
+import logo from "../../../img/Drawer.png";
 
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -83,10 +83,10 @@ const Cajon = (props) => {
                 </Typography>
               </ListItemText>
             </ListItem>
-            <ListItem button component={Link} to="/Actividades">
+            <ListItem button component={Link} to="/Equipos">
               <ListItemText>
                 <Typography className={classes.text} variant="h6">
-                  Actividades
+                  Equipos
                 </Typography>
               </ListItemText>
             </ListItem>

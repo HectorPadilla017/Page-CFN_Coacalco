@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100vh",
     position: "relative",
     background: "#fff",
-    zIndex: 2000,
+    zIndex: 20,
   },
   box: {
     margin: "0",

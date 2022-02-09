@@ -15,42 +15,56 @@ const useStyles = makeStyles((theme) => ({
         color: '#fff',
         width: '400px',
         margin: 'auto',
-        padding: theme.spacing(8, 2, 2, 2),
+        padding: theme.spacing(4, 2, 2, 2),
         [theme.breakpoints.down('md')]: {
-            padding: theme.spacing(8, 0, 0, 0),
+            padding: theme.spacing(4, 0, 0, 0),
             width: '100%',
+        },
+        '& span': {
+            fontSize: '1.4rem',
         },
     },
     input: {
-        padding: theme.spacing(2),
+        padding: theme.spacing(1,2,1),
         backgroundColor: '#fff',
         borderRadius: '10px',
         width: '260px',
-        height: '50px',
+        // height: '50px',
+        fontSize: '1.8em',
         [theme.breakpoints.down('sm')]: {
             width: '100%',
         },
     },
     input2: {
-        padding: theme.spacing(2),
+        padding: theme.spacing(2,2),
         backgroundColor: '#fff',
         borderRadius: '10px',
         width: '370px',
+        fontSize: '1.8em',
         [theme.breakpoints.down('md')]: {
             width: '100%',
         },
     },
     title: {
+        paddingBottom: '16px',
         [theme.breakpoints.down('sm')]: {
             textAlign: 'center',
         },
     },
     button: {
-        margin: '20px 0',
+        margin: '10px 0',
         [theme.breakpoints.down('sm')]: {
             width: '100%',
         },
+        '& span': {
+            fontSize: '1.6rem',
+        }
     },
+    snackbar: {
+        '& div': {
+            fontSize: '1.6rem',
+        }
+    }
 }));
 
 const Contact = () => {
@@ -111,17 +125,12 @@ const Contact = () => {
                         Contáctanos
                     </Typography>
                 </Grid>
-                <Grid item xs={12}>
-                    <Typography gutterBottom variant='h6'>
-                        Envíanos un mensaje
-                    </Typography>
-                </Grid>
-
             </Grid>
                 <form onSubmit={handleSubmit(onSubmit)} autoComplete='on'>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>
-                            <Controller 
+                            <Controller
+                                className={classes.span}
                                 name='name'
                                 control={control}
                                 defaultValue=''
@@ -191,16 +200,16 @@ const Contact = () => {
                     className={classes.button} 
                     type='submit'
                     variant='contained' 
-                    size='large' 
                     color='primary'
                 >
                     Enviar
                 </Button>
                 </form>
                 <Snackbar
+                    className={classes.snackbar}
                     anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
                     open={open}
-                    autoHideDuration={6000}
+                    autoHideDuration={3000}
                     onClose={handleClose}
                     message="Mensaje Enviado"
                 />

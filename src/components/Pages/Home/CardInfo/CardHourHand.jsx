@@ -35,6 +35,7 @@ const CardHourHand = () => {
           Martes
         </Typography>
         <Typography variant="body1">
+          06:00 Oración de Varones (Rosh)
           21:00 Oración Sanidades y Milagros
         </Typography>
         <hr />
@@ -42,7 +43,7 @@ const CardHourHand = () => {
           Miércoles
         </Typography>
         <Typography variant="body1">
-          19:00 Reunión General (Presencial) <br />
+          19:00 Reunión General <br />
           20:30 Niveles de Enseñanza
         </Typography>
         <hr />
@@ -51,14 +52,14 @@ const CardHourHand = () => {
         </Typography>
         <Typography variant="body1">
           10:00 Reunión de Damas <br />
-          19:00 Reuniones Familiares (Células) vía Webex
+          19:00 Reuniones Familiares (Células) vía Webex o Zoom
         </Typography>
         <hr />
         <Typography className={classes.title} variant="h6">
           Viernes
         </Typography>
         <Typography variant="body1">
-          19:00 Altares de Adoración
+          19:00 Oración por los estados de la República (Solo presencial)
         </Typography>
         <hr />
         <Typography className={classes.title} variant="h6">
@@ -67,6 +68,7 @@ const CardHourHand = () => {
         <Typography variant="body1">
           11:00 Escuela para Padres <br />
           16:00 Adolescentes, Jóvenes, Profesionistas (Reuniones Presenciales y Online) <br />
+          17:00 Mujeres con Propósito <br />
           19:00 Reunión de Matrimonios (cada 15 días)
         </Typography>
         <hr />

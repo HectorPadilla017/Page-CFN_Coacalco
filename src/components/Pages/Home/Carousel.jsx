@@ -151,23 +151,3 @@ export default function Carousel() {
     </Box>
   );
 }
-// <SwiperSlide>
-//     <div className={classes.imgCont}></div>
-//     <img src={foto1} className={classes.img}/>
-// </SwiperSlide>
-// <SwiperSlide>
-//     <div className={classes.imgCont}></div>
-//     <img src={foto2} className={classes.img}/>
-// </SwiperSlide>
-// <SwiperSlide>
-//     <div className={classes.imgCont}></div>
-//     <img src={foto3} className={classes.img}/>
-// </SwiperSlide>
-// <SwiperSlide>
-//     <div className={classes.imgCont}></div>
-//     <img src={foto4} className={classes.img}/>
-// </SwiperSlide>
-// <SwiperSlide>
-//     <div className={classes.imgCont}></div>
-//     <img src={foto5} className={classes.img}/>
-// </SwiperSlide>

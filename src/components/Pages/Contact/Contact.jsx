@@ -9,7 +9,7 @@ import pMinDelay from "p-min-delay";
 import SocialContact from "./SocialContact";
 import CoverPages from "../../Content/CoverPages/CoverPages";
 import Loading from "../../Content/SpinnerLoading/Loading"
-import foto from "../../../img/Cover3.png";
+import foto from "../../../img/Cover3.jpg";
 
 const CardMap = lazy(() =>
   pMinDelay(import("../../Content/Cards/CardMap"), 2000)

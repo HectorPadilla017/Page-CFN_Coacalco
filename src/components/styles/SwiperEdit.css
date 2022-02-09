@@ -6,6 +6,7 @@
     top: 50%;
     width: 3vmin;
     height: 3vmin;
+    cursor: default;
     background: transparent;
     border-top: 1vmin solid white;
     border-right: 1vmin solid white;
@@ -35,6 +36,7 @@
     top: 50%;
     width: 3vmin;
     height: 3vmin;
+    cursor: default;
     background: transparent;
     border-top: 1vmin solid white;
     border-right: 1vmin solid white;
@@ -65,6 +67,7 @@
     top: 50%;
     width: 3vmin;
     height: 3vmin;
+    cursor: default;
     background: transparent;
     border-top: 1vmin solid rgba(13, 50, 105, 0.9);
     border-right: 1vmin solid rgba(13, 50, 105, 0.9);
@@ -94,6 +97,7 @@
     top: 50%;
     width: 3vmin;
     height: 3vmin;
+    cursor: default;
     background: transparent;
     border-top: 1vmin solid rgba(13, 50, 105, 0.9);
     border-right: 1vmin solid rgba(13, 50, 105, 0.9);

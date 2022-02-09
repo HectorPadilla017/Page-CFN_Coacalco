@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Titan+One&display=swap");
+html {
+  font-size: 8px;
+}
+
+html body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+html body h1 {
+  font-size: 9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  html body h1 {
+    font-size: 8em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html body h1 {
+    font-size: 7.6em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html body h1 {
+    font-size: 6em;
+  }
+}
+
+html body h2 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  html body h2 {
+    font-size: 6.8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html body h2 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html body h2 {
+    font-size: 4em;
+  }
+}
+
+html body h3 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  html body h3 {
+    font-size: 4.4em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html body h3 {
+    font-size: 4em;
+  }
+}
+
+html body h4 {
+  font-size: 4.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  html body h4 {
+    font-size: 3.8em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html body h4 {
+    font-size: 3em;
+  }
+}
+
+html body h5 {
+  font-size: 3.2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+html body h6 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  html body h6 {
+    font-size: 2.2em;
+  }
+}
+
+html body p {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+html body strong {
+  font-size: 1em;
+}
+
+html body ul {
+  font-size: 1em;
+  margin: 0;
+  -webkit-margin-before: 8px;
+          margin-block-start: 8px;
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
+}
+
+html body ul li {
+  font-size: 0.9em;
+}
+
+html body .cursive {
+  font-style: italic;
+}
+
+html body .subtitle1 {
+  font-size: 2.2rem;
+}
+
+html body .subtitle2 {
+  font-size: 2rem;
+}
+
+html body .body1 {
+  font-size: 1.8rem;
+  text-align: justify;
+  margin-bottom: 0.45em;
+}
+
+@media screen and (max-width: 450px) {
+  html body .body1 {
+    font-size: 1.5em;
+  }
+}
+
+html body .body2 {
+  font-size: 1.5rem;
+}
+
+html body .conText {
+  font-size: 1rem;
+}
+
+html body .conText.mini {
+  font-size: 0.50rem;
+}
+
+html body .conText.small {
+  font-size: 0.75rem;
+}
+
+html body .conText.medium {
+  font-size: 1.25rem;
+}
+
+html body .conText.large {
+  font-size: 1.5rem;
+}
+
+html body .title {
+  font-weight: 500;
+  margin-bottom: 0.50em;
+  line-height: 1;
+}
+
+html body .subtitle {
+  font-weight: 500;
+  margin-bottom: 0.20em;
+}
+
+html body .divText {
+  margin-bottom: 12px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=main.css.map */

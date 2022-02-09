@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 
-import foto from "../../../img/Card.png";
+import foto from "../../../img/Card.jpg";
 
 import "../../Function/FadeScroll";
 import "../../styles/fade.css";

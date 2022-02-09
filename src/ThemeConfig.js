@@ -7,52 +7,61 @@ const theme = createMuiTheme({
         fontFamily: "Roboto",
       },
       h1: {
-        fontSize: "85px",
+        fontSize: "9rem",
         fontWeight: "bold",
+        "@media (max-width:1280px)": {
+          fontSize: "8em",
+        },
         "@media (max-width:960px)": {
-          fontSize: "75px",
+          fontSize: "7.6em",
         },
         "@media (max-width:600px)": {
-          fontSize: "62px",
+          fontSize: "6em",
         },
       },
       h2: {
-        fontSize: "65px",
+        fontSize: "8rem",
+        // fontSize: "65px",
         fontWeight: "bold",
         "@media (max-width:960px)": {
-          fontSize: "55px",
+          fontSize: "6.8em",
+          // fontSize: "55px",
         },
         "@media (max-width:600px)": {
-          fontSize: "42px",
+          fontSize: "5em",
         },
-        "@media (max-width:460px)": {
-          fontSize: "32px",
+        "@media (max-width:450px)": {
+          fontSize: "4em",
         },
       },
       h3: {
-        fontSize: "50px",
+        fontSize: "5rem",
+        // fontSize: "40px",
         fontWeight: "bold",
         "@media (max-width:1280px)": {
-          fontSize: "45px",
+          fontSize: "4.4em",
         },
         "@media (max-width:960px)": {
-          fontSize: "40px",
+          fontSize: "4em",
         },
       },
       h4: {
-        fontSize: "35px",
+        fontSize: "4.2rem",
         fontWeight: "bold",
         "@media (max-width:960px)": {
-          fontSize: "30px",
+          fontSize: "3.8em",
+        },
+        "@media (max-width:450px)": {
+          fontSize: "3em",
         },
       },
       h5: {
-        fontSize: "30px",
+        fontSize: "3.2rem",
       },
       h6: {
-        fontSize: "25px",
+        fontSize: "2.6rem",
         "@media (max-width:1280px)": {
-          fontSize: "20px",
+          fontSize: "2.2em",
         },
       },
       subtitle1: {
@@ -62,10 +71,13 @@ const theme = createMuiTheme({
         fontSize: "16px",
       },
       body1: {
-        fontSize: "15px",
+        fontSize: "1.8rem",
+        "@media (max-width:450px)": {
+          fontSize: "1.5em",
+        },
       },
       body2: {
-        fontSize: "12px",
+        fontSize: "1.5rem",
       },
     },
     MuiButton: {
@@ -79,10 +91,16 @@ const theme = createMuiTheme({
         borderRadius: "15px",
       },
     },
+    MuiIcon: {
+      fontSizeInherit: {
+        fontSize: "3rem",
+      },
+    },
     MuiCssBaseline: {
       "@global": {
         "*": {
           "scrollbar-width": "thin",
+          fontSize: "8px",
         },
         body: {
           fontFamily: "Roboto",
@@ -93,7 +111,6 @@ const theme = createMuiTheme({
         "*::-webkit-scrollbar": {
           backgroundColor: "transparent",
           width: "0.6em",
-          // zIndex: 600,
         },
         "*::-webkit-scrollbar-track": {
           backgroundColor: "transparent",
@@ -104,7 +121,6 @@ const theme = createMuiTheme({
           borderRadius: "5px",
         },
         "*::-webkit-scrollbar-thumb:active": {
-          // background: 'linear-gradient(transparent,#1965d6)',
           background: "rgba(25, 101, 214, 0.8)",
           borderRadius: "5px",
         },

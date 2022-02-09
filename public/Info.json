@@ -1,289 +1,200 @@
 {
-    "Banner":[
-        {
-            "id": "1",
-            "Img": "https://cfn.org.mx/img/Banner/ReThink.png",
-            "Nombre": "ReThink",
-            "Titulo": "",
-            "Descripción": ""
-        },
-        {
-            "id": "2",
-            "Img": "https://cfn.org.mx/img/Banner/Banner1.png",
-            "Nombre": "Banner1",
-            "Titulo": "",
-            "Descripción": ""
-        },
-        {
-            "id": "3",
-            "Img": "https://cfn.org.mx/img/Banner/Banner2.jpg",
-            "Nombre": "Banner2",
-            "Titulo": "Edificando Familias, Formando Siervos",
-            "Descripción": "'Quien quiera servirme, debe seguirme; y donde yo esté, allí también estará mi siervo. A quien me sirva, mi Padre lo honrará (Juan 12:16)."
-        },
-        {
-            "id": "4",
-            "Img": "https://cfn.org.mx/img/Banner/Banner3.JPG",
-            "Nombre": "Banner3",
-            "Titulo": "Adoración",
-            "Descripción": "'Tu amor es mejor que la vida; por eso mis labios te alabarán. Te bendeciré mientras viva, y alzando mis manos te invocaré (Salmo 63:3-4).'"
-        },
-        {
-            "id": "5",
-            "Img": "https://cfn.org.mx/img/Banner/Banner4.JPG",
-            "Nombre": "Banner4",
-            "Titulo": "Pasión y Amor",
-            "Descripción": "'Así como el Padre me ha amado, así también yo los he amado a ustedes; permanezcan en mi amor (Juan 15:9).'"
-        }
-    ],
-    "CoverPages": [
-        {
-            "id": "1",
-            "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover1.svg",
-            "Nombre": ""
-        },
-        {
-            "id": "2",
-            "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover2.svg",
-            "Nombre": ""
-        },
-        {
-            "id": "3",
-            "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover3.svg",
-            "Nombre": ""
-        }
-    ],
-    "Actividades1":[
-        {
-            "id": "1",
-            "Img": "https://cfn.org.mx/img/Actividades1/Principal.png",
-            "Nombre": "ReThink",
-            "Titulo": "Olivo Silvestre",
-            "Descripción": "¿El cristianismo anula la ley?¿Somos obligados a cumplir las leyes que hay en el antiguo pacto?¿Las genealogías judaicas aplican aun en el siglo XXI?"
-        },
-        {
-            "id": "2",
-            "Img": "https://cfn.org.mx/img/Actividades1/Spotify.jpg",
-            "Nombre": "Spotify",
-            "Titulo": "Nuevo Disco Reforma",
-            "Descripción": "",
-            "Href": "https://cfncoacalco.hearnow.com",
-            "Link": "Escuchalo Aquí"
-        },
-        {
-            "id": "3",
-            "Img": "https://cfn.org.mx/img/Actividades1/Domingo.jpg",
-            "Nombre": "Domingo",
-            "Titulo": "Reuniones Domingo",
-            "Descripción": "¡Te esperamos en casa o en nuestras transmisiones por Youtube y Facebook."
-        },
-        {
-            "id": "4",
-            "Img": "https://cfn.org.mx/img/Actividades1/SanidadesYMilagros.jpg",
-            "Nombre": "Sanidades",
-            "Titulo": "Sanidades y Milagros",
-            "Descripción": "Todos los martes por la noche estamos orando por un milagro para tu vida en el que puedes participar."
-        },
-        {
-            "id": "5",
-            "Img": "https://cfn.org.mx/img/Actividades1/Miercoles.jpg",
-            "Nombre": "Miércoles",
-            "Titulo": "Reunión Miércoles",
-            "Descripción": "Cada Miércoles tenemos una reunión refrescante donde la Palabra y la Alabanza ministra tu vida."
-        },
-        {
-            "id": "6",
-            "Img": "https://cfn.org.mx/img/Actividades1/Damas.jpg",
-            "Nombre": "Damas",
-            "Titulo": "Reunión de Damas",
-            "Descripción": "Todos jueves tenemos la Reunión de Damas, no faltes, gran bendición lo que Dios derrama sobre nosotras."
-        },
-        {
-            "id": "7",
-            "Img": "https://cfn.org.mx/img/Actividades1/Celulas.jpg",
-            "Nombre": "Células",
-            "Titulo": "Reunión de Células",
-            "Descripción": "Todos los Jueves hay un Grupo Familiar para tí, se llevan acabo online via Webex."
-        },
-        {
-            "id": "8",
-            "Img": "https://cfn.org.mx/img/Actividades1/LivingWord.jpg",
-            "Nombre": "Living Word",
-            "Titulo": "Living Word",
-            "Descripción": "Todos los días tenemos un mensaje que alimentara tu vida.",
-            "Des": [
-                "Pas. Salomon Fernandez",
-                "Pas. Jonas Fernandez",
-                "Pas. Pas. Bernabe Fernandez",
-                "Pas. Samuel Mendoza"
-            ]
-        },
-        {
-            "id": "9",
-            "Img": "https://cfn.org.mx/img/Actividades1/Intercesion.jpg",
-            "Nombre": "Intercesión",
-            "Titulo": "Intercesión",
-            "Descripción": "Todos los días estamos intercediendo por tí, conéctate y únete a este tiempo de clamor."
-        },
-        {
-            "id": "10",
-            "Img": "https://cfn.org.mx/img/Actividades1/AltarDeAdoracion.jpg",
-            "Nombre": "Altar de Adoración",
-            "Titulo": "Altar de Adoración",
-            "Descripción": "Todos los Viernes, levantamos un Altar de Adoración, te esperamos en casa o conectate vía FaceLive."
-        },
-        {
-            "id": "11",
-            "Img": "https://cfn.org.mx/img/Actividades1/EscuelaParaPadres.jpg",
-            "Nombre": "Escuela para Padres",
-            "Titulo": "Escuela para Padres",
-            "Descripción": "Escucha el Consejo de la Palabra para guiar a tus hijos. Todos los Sábados."
-        },
-        {
-            "id": "12",
-            "Img": "https://cfn.org.mx/img/Actividades1/Jovenes.jpg",
-            "Nombre": "Jóvenes",
-            "Titulo": "Reunión de Jóvenes",
-            "Descripción": "Asiste a las reuniones presenciales u online que se realizan vía Webex todos los Sábados."
-        },
-        {
-            "id": "13",
-            "Img": "https://cfn.org.mx/img/Actividades1/Matrimonios.jpg",
-            "Nombre": "Matrimonios",
-            "Titulo": "Matrimonios",
-            "Descripción": "Todos los matrimonios los esperamos cada 15 dias los Sábados."
-        }
-    ],
-    "Actividades2":[
-        {
-            "id": "1",
-            "Img": "https://cfn.org.mx/img/Actividades2/PRINCIPAL.jpg",
-            "Nombre": "Spotify",
-            "Titulo": "Spotify",
-            "Subtitulo": "",
-            "Descripción": "Escucha las nuevas canciones en la plataforma de Spotify"
-        },
-        {
-            "id": "2",
-            "Img": "https://cfn.org.mx/img/Actividades2/SPOTIFY.jpg",
-            "Nombre": "Reforma",
-            "Titulo": "Nuevo Disco Reforma",
-            "Subtitulo": "",
-            "Descripción": ""
-        },
-        {
-            "id": "3",
-            "Img": "https://cfn.org.mx/img/Actividades2/DOMINGO.jpg",
-            "Nombre": "Domingo",
-            "Titulo": "Reunión Domingo",
-            "Subtitulo": "",
-            "Descripción": "¡Te esperamos en casa o en nuestras transmisiones por Youtube y Facebook."
-        },
-        {
-            "id": "4",
-            "Img": "https://cfn.org.mx/img/Actividades2/SANIDADES_Y_MILAGROS.jpg",
-            "Nombre": "",
-            "Titulo": "Sanidades y Milagros",
-            "Subtitulo": "",
-            "Descripción": "Todos los martes por la noche estamos orando por un milagro para tu vida en el que puedes participar."
-        },
-        {
-            "id": "5",
-            "Img": "https://cfn.org.mx/img/Actividades2/MIERCOLES.jpg",
-            "Nombre": "",
-            "Titulo": "Reunión Miércoles",
-            "Subtitulo": "",
-            "Descripción": "Cada Miércoles tenemos una reunión refrescante donde la Palabra y la Alabanza ministra tu vida."
-        },
-        {
-            "id": "6",
-            "Img": "https://cfn.org.mx/img/Actividades2/DAMAS.jpg",
-            "Nombre": "",
-            "Titulo": "Reunión de Damas",
-            "Subtitulo": "",
-            "Descripción": "Todos jueves tenemos la Reunión de Damas, no faltes, gran bendición lo que Dios derrama sobre nosotras."
-        },
-        {
-            "id": "7",
-            "Img": "https://cfn.org.mx/img/Actividades2/CELULAS.jpg",
-            "Nombre": "",
-            "Titulo": "Reunión de Células",
-            "Subtitulo": "",
-            "Descripción": "Todos los Jueves hay un Grupo Familiar para tí, se llevan acabo online via Webex."
-        },
-        {
-            "id": "8",
-            "Img": "https://cfn.org.mx/img/Actividades2/LIVING_WORD.jpg",
-            "Nombre": "",
-            "Titulo": "Living Word",
-            "Subtitulo": "",
-            "Descripción": "Todos los días tenemos un mensaje que alimentara tu vida."
-        },
-        {
-            "id": "9",
-            "Img": "https://cfn.org.mx/img/Actividades2/INTERCESION.jpg",
-            "Nombre": "",
-            "Titulo": "Intercesión",
-            "Subtitulo": "",
-            "Descripción": "Todos los días estamos intercediendo por tí, conéctate y únete a este tiempo de clamor."
-        },
-        {
-            "id": "10",
-            "Img": "https://cfn.org.mx/img/Actividades2/ALTAR_DE_ADORACION.jpg",
-            "Nombre": "",
-            "Titulo": "Altar de Adoración",
-            "Subtitulo": "",
-            "Descripción": "Todos los Viernes, levantamos un Altar de Adoración, te esperamos en casa o conectate vía FaceLive."
-        },
-        {
-            "id": "11",
-            "Img": "https://cfn.org.mx/img/Actividades2/ESCUELA_PARA_PADRES.jpg",
-            "Nombre": "",
-            "Titulo": "Escuela para Padres",
-            "Subtitulo": "",
-            "Descripción": "Escucha el Consejo de la Palabra para guiar a tus hijos. Todos los Sábados."
-        },
-        {
-            "id": "12",
-            "Img": "https://cfn.org.mx/img/Actividades2/JOVENES.jpg",
-            "Nombre": "",
-            "Titulo": "Reunión de Jóvenes",
-            "Subtitulo": "",
-            "Descripción": "Asiste a las reuniones presenciales u online que se realizan vía Webex todos los Sábados."
-        },
-        {
-            "id": "13",
-            "Img": "https://cfn.org.mx/img/Actividades2/MATRIMONIOS.jpg",
-            "Nombre": "",
-            "Titulo": "Matrimonios",
-            "Subtitulo": "",
-            "Descripción": "Todos los matrimonios los esperamos cada 15 dias los Sábados."
-        }
-    ],
-    "Videos":[
-        {
-            "id": "1",
-            "url": "",
-            "Nombre": "",
-            "Titulo": "",
-            "Subtitulo": "",
-            "Descripción": ""
-        },
-        {
-            "id": "2",
-            "url": "",
-            "Nombre": "",
-            "Titulo": "",
-            "Subtitulo": "",
-            "Descripción": ""
-        },
-        {
-            "id": "3",
-            "url": "",
-            "Nombre": "",
-            "Titulo": "",
-            "Subtitulo": "",
-            "Descripción": ""
-        }
-    ]
+  "Banner": [
+    {
+      "id": "1",
+      "Img": "https://cfn.org.mx/img/Banner/Banner1.jpg",
+      "Nombre": "Banner1",
+      "Titulo": "",
+      "Descripción": ""
+    },
+    {
+      "id": "2",
+      "Img": "https://cfn.org.mx/img/Banner/Banner2.jpg",
+      "Nombre": "Banner2",
+      "Titulo": "Edificando Familias, Formando Siervos",
+      "Descripción": "'Quien quiera servirme, debe seguirme; y donde yo esté, allí también estará mi siervo. A quien me sirva, mi Padre lo honrará (Juan 12:16)."
+    },
+    {
+      "id": "3",
+      "Img": "https://cfn.org.mx/img/Banner/Banner3.jpg",
+      "Nombre": "Banner3",
+      "Titulo": "Adoración",
+      "Descripción": "'Tu amor es mejor que la vida; por eso mis labios te alabarán. Te bendeciré mientras viva, y alzando mis manos te invocaré (Salmo 63:3-4).'"
+    },
+    {
+      "id": "4",
+      "Img": "https://cfn.org.mx/img/Banner/Banner4.jpg",
+      "Nombre": "Banner4",
+      "Titulo": "Pasión y Amor",
+      "Descripción": "'Así como el Padre me ha amado, así también yo los he amado a ustedes; permanezcan en mi amor (Juan 15:9).'"
+    }
+  ],
+  "CoverPages": [
+    {
+      "id": "1",
+      "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover1.svg",
+      "Nombre": ""
+    },
+    {
+      "id": "2",
+      "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover2.svg",
+      "Nombre": ""
+    },
+    {
+      "id": "3",
+      "Img": "http://demo.cfn.org.mx/img/CoverPages/Cover3.svg",
+      "Nombre": ""
+    }
+  ],
+  "Actividades1": [
+    {
+      "id": "1",
+      "Img": "https://cfn.org.mx/img/Actividades1/Spotify.jpg",
+      "Nombre": "Spotify",
+      "Titulo": "Disco Reforma",
+      "Descripción": "",
+      "Href": "https://cfncoacalco.hearnow.com",
+      "Link": "Escuchalo Aquí"
+    },
+    {
+      "id": "2",
+      "Img": "https://cfn.org.mx/img/Actividades1/Domingo.jpg",
+      "Nombre": "Domingo",
+      "Titulo": "Reuniones Domingo",
+      "Descripción": "¡Te esperamos en casa o en nuestras transmisiones por Youtube y Facebook."
+    },
+    {
+      "id": "3",
+      "Img": "https://cfn.org.mx/img/Actividades1/Rosh.jpg",
+      "Nombre": "Rosh",
+      "Titulo": "Oración de Varones",
+      "Descripción": "Esperamos a todos los varones para tomar un tiempo de oración e intercesión por nuestras familias, todos los martes a partir de las 6:00 am."
+    },
+    {
+      "id": "4",
+      "Img": "https://cfn.org.mx/img/Actividades1/SanidadesYMilagros.jpg",
+      "Nombre": "Sanidades",
+      "Titulo": "Sanidades y Milagros",
+      "Descripción": "Todos los martes por la noche estamos orando por un milagro para tu vida en el que puedes participar."
+    },
+    {
+      "id": "5",
+      "Img": "https://cfn.org.mx/img/Actividades1/Miercoles.jpg",
+      "Nombre": "Miércoles",
+      "Titulo": "Reunión Miércoles",
+      "Descripción": "Cada Miércoles tenemos una reunión refrescante donde la Palabra y la Alabanza ministra tu vida."
+    },
+    {
+      "id": "6",
+      "Img": "https://cfn.org.mx/img/Actividades1/Damas.jpg",
+      "Nombre": "Damas",
+      "Titulo": "Reunión de Damas",
+      "Descripción": "Todos jueves tenemos la Reunión de Damas, no faltes, gran bendición lo que Dios derrama sobre nosotras."
+    },
+    {
+      "id": "7",
+      "Img": "https://cfn.org.mx/img/Actividades1/Celulas.jpg",
+      "Nombre": "Células",
+      "Titulo": "Reunión de Células",
+      "Descripción": "Todos los Jueves hay un Grupo Familiar para tí, se llevan acabo online via Webex."
+    },
+    {
+      "id": "8",
+      "Img": "https://cfn.org.mx/img/Actividades1/LivingWord.jpg",
+      "Nombre": "Living Word",
+      "Titulo": "Living Word",
+      "Descripción": "Todos los días tenemos un mensaje que alimentara tu vida.",
+      "Des": [
+        "Pas. Salomon Fernandez",
+        "Pas. Jonas Fernandez",
+        "Pas. Pas. Bernabe Fernandez",
+        "Pas. Samuel Mendoza"
+      ]
+    },
+    {
+      "id": "9",
+      "Img": "https://cfn.org.mx/img/Actividades1/Intercesion.jpg",
+      "Nombre": "Intercesión",
+      "Titulo": "Intercesión",
+      "Descripción": "Todos los días estamos intercediendo por tí, conéctate y únete a este tiempo de clamor."
+    },
+    {
+      "id": "10",
+      "Img": "https://cfn.org.mx/img/Actividades1/OracionRepublica.jpg",
+      "Nombre": "Oración por los estados de la República",
+      "Titulo": "Oración por los estados de la República",
+      "Descripción": "Te esperamos cada viernes en las instalaciones de CFN Coacalco para interceder por cada uno de los estados de nuestra República Mexicana."
+    },
+    {
+      "id": "11",
+      "Img": "https://cfn.org.mx/img/Actividades1/EscuelaParaPadres.jpg",
+      "Nombre": "Escuela para Padres",
+      "Titulo": "Escuela para Padres",
+      "Descripción": "Escucha el Consejo de la Palabra para guiar a tus hijos. Todos los Sábados."
+    },
+    {
+      "id": "12",
+      "Img": "https://cfn.org.mx/img/Actividades1/Jovenes.jpg",
+      "Nombre": "Jóvenes",
+      "Titulo": "Reunión de Jóvenes",
+      "Descripción": "Asiste a las reuniones presenciales u online que se realizan vía Webex todos los Sábados."
+    },
+    {
+      "id": "13",
+      "Img": "https://cfn.org.mx/img/Actividades1/MujeresConProposito.jpg",
+      "Nombre": "Mujeres con Propósito",
+      "Titulo": "Reunión de Mujeres con Propósito",
+      "Descripción": "Asiste a las reuniones presenciales todos los Sábados."
+    },
+    {
+      "id": "14",
+      "Img": "https://cfn.org.mx/img/Actividades1/Matrimonios.jpg",
+      "Nombre": "Matrimonios",
+      "Titulo": "Matrimonios",
+      "Descripción": "Todos los matrimonios los esperamos cada 15 dias los Sábados."
+    }
+  ],
+  "Actividades2": [
+    {
+      "id": "1",
+      "Img": "https://cfn.org.mx/img/Actividades2/PRINCIPAL.jpg",
+      "Nombre": "Spotify",
+      "Titulo": "Spotify",
+      "Subtitulo": "",
+      "Descripción": "Escucha las nuevas canciones en la plataforma de Spotify"
+    },
+    {
+      "id": "2",
+      "Img": "https://cfn.org.mx/img/Actividades2/SPOTIFY.jpg",
+      "Nombre": "Reforma",
+      "Titulo": "Nuevo Disco Reforma",
+      "Subtitulo": "",
+      "Descripción": ""
+    },
+    {
+      "id": "3",
+      "Img": "https://cfn.org.mx/img/Actividades2/DOMINGO.jpg",
+      "Nombre": "Domingo",
+      "Titulo": "Reunión Domingo",
+      "Subtitulo": "",
+      "Descripción": "¡Te esperamos en casa o en nuestras transmisiones por Youtube y Facebook."
+    }
+  ],
+  "Equipos": [
+    {
+      "id": "1",
+      "Img": "https://cfn.org.mx/img/Equipos/AP.jpg",
+      "Nombre": "Ayuda al Prójimo"
+    },
+    {
+      "id": "2",
+      "Img": "https://cfn.org.mx/img/Equipos/Ágora.jpg",
+      "Nombre": "Ágora"
+    },
+    {
+      "id": "3",
+      "Img": "https://cfn.org.mx/img/Equipos/ReThink.jpg",
+      "Nombre": "ReThink"
+    }
+  ]
 }

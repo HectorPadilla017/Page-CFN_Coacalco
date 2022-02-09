@@ -7,12 +7,15 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     top: "0",
     width: "100%",
-    height: "400px",
+    height: "270px",
     [theme.breakpoints.down("lg")]: {
-      height: "300px",
+      height: "200px",
+    },
+    [theme.breakpoints.down("md")]: {
+      height: "180px",
     },
     [theme.breakpoints.down("sm")]: {
-      height: "200px",
+      height: "140px",
     },
   },
   gradient: {
@@ -28,32 +31,33 @@ const useStyles = makeStyles((theme) => ({
     color: "#fff",
   },
   text: {
-    padding: theme.spacing(20, 20, 0),
+    padding: theme.spacing(14, 20, 0),
     [theme.breakpoints.down("lg")]: {
-      padding: theme.spacing(16, 20, 0),
+      padding: theme.spacing(10, 20, 0),
     },
     [theme.breakpoints.down("md")]: {
-      padding: theme.spacing(16, 10, 0),
+      padding: theme.spacing(10, 10, 0),
     },
     [theme.breakpoints.down("sm")]: {
-      padding: theme.spacing(8, 10, 0),
+      padding: theme.spacing(6, 10, 0),
     },
     [theme.breakpoints.down("xs")]: {
-      padding: theme.spacing(8, 0, 0, 0),
+      padding: theme.spacing(6, 0, 0, 0),
       textAlign: "center",
     },
   },
   img: {
     width: "100%",
-    height: "400px",
+    height: "100%",
+    // height: "400px",
     objectFit: "cover",
     filter: "brightness(85%)",
-    [theme.breakpoints.down("lg")]: {
-      height: "300px",
-    },
-    [theme.breakpoints.down("sm")]: {
-      height: "200px",
-    },
+    // [theme.breakpoints.down("lg")]: {
+    //   height: "100%",
+    // },
+    // [theme.breakpoints.down("sm")]: {
+    //   height: "200px",
+    // },
   },
 }));
 

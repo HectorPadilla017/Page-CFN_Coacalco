@@ -5,6 +5,7 @@ import theme from "./ThemeConfig";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { CssBaseline } from "@material-ui/core";
 
+import './sass/main.css'
 import Rou from "./components/Routes/Routes";
 
 function App() {

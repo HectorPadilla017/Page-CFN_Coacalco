@@ -8,9 +8,9 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding: theme.spacing(8, 2, 2, 2),
+    padding: theme.spacing(4, 2, 2, 2),
     [theme.breakpoints.down("md")]: {
-      padding: theme.spacing(8, 0, 0, 0),
+      padding: theme.spacing(4, 0, 0, 0),
     },
     [theme.breakpoints.down("sm")]: {
       padding: theme.spacing(2),
@@ -57,10 +57,10 @@ const Map = () => {
         <Typography
           className={classes.link}
           component={Link}
-          to="/Actividades"
+          to="/Equipos"
           variant="h6"
         >
-          Actividades
+          Equipos
         </Typography>
         <br />
         <Typography
