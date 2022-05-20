@@ -25,12 +25,13 @@ export default function TeachingReducer(state = dataInicial, action){
     }
 }
 
+// const Key = process.env.KEY_CHANNEL;
 const Key = 'AIzaSyDQGFIpVWTyx27nV7Cw9q4ej52PTSW-pqU';
 
 // acciones
 export const getTeachingAction = () => async (dispatch, getState) => {
     try {
-        const KeyTeaching = 'PLIEDYvPEGTTTxLY5qwb-WZnjLfMxkbmAB';
+        const KeyTeaching = 'PLIEDYvPEGTTTzHRfXLPEMAnAvTzahgkhi';
         const num = 50;
         const res = await axios.get(`https://www.googleapis.com/youtube/v3/playlistItems?fields=items(snippet(title,thumbnails,resourceId(videoId)))&part=snippet&maxResults=${num}&playlistId=${KeyTeaching}&key=${Key}`)
         const num1 = parseInt(res.data.items.length) - 1;

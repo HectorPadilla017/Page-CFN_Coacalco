@@ -29,7 +29,7 @@ const Key = 'AIzaSyDQGFIpVWTyx27nV7Cw9q4ej52PTSW-pqU';
 // acciones
 export const getSermonsAction = () => async (dispatch, getState) => {
     try {
-        const KeySermons = 'PLIEDYvPEGTTRUryBw_fP1seYwCrt54nN5';
+        const KeySermons = 'PLIEDYvPEGTTQySfMjlJSclqnDQBX9_Sv8';
         const num = 15;
         const res = await axios.get(`https://www.googleapis.com/youtube/v3/playlistItems?fields=items(snippet(title,thumbnails,resourceId(videoId)))&part=snippet&maxResults=${num}&playlistId=${KeySermons}&key=${Key}`)
         const num1 = parseInt(res.data.items.length) - 1;

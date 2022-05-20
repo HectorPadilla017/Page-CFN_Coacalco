@@ -49,12 +49,12 @@
   "Actividades1": [
     {
       "id": "1",
-      "Img": "https://cfn.org.mx/img/Actividades1/Spotify.jpg",
-      "Nombre": "Spotify",
-      "Titulo": "Disco Reforma",
-      "Descripción": "",
-      "Href": "https://cfncoacalco.hearnow.com",
-      "Link": "Escuchalo Aquí"
+      "Img": "https://cfn.org.mx/img/Actividades1/Principal.jpg",
+      "Nombre": "Anuncios",
+      "Titulo": "Congreso de Varones",
+      "Descripción": "No olvides apartar estas fechas!!!",
+      "Href": "",
+      "Link": ""
     },
     {
       "id": "2",
@@ -198,3 +198,4 @@
     }
   ]
 }
+

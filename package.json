@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.7.3",
     "aos": "^2.3.4",
     "axios": "^0.21.1",
+    "dotenv": "^16.0.0",
     "emailjs-com": "^2.6.4",
     "leaflet": "^1.7.1",
     "p-min-delay": "^3.2.0",
